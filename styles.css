@@ -1,0 +1,37 @@
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators 
+{
+    filter: invert(100%);
+}
+body
+{
+background-color: bisque;
+}
+.presentacion
+{
+    padding-left: 50px;
+    background-color: #198754;
+    text-align: center, justify;
+    font-weight: bold;
+    
+}
+.containerpres
+{
+    max-width: 100%;
+    margin-right: 12px;
+    padding: 0px;
+}
+.containervids
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.containervids blockquote 
+{
+    max-width: 50%; 
+    flex: 1 1 auto;
+}
