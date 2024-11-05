@@ -7,15 +7,16 @@
 }
 body
 {
-background-color: bisque;
+background-color: beige;
 }
 .presentacion
 {
     padding-left: 50px;
     background-color: #198754;
+    margin-top: 20px;
     text-align: center, justify;
     font-weight: bold;
-    
+    color: whitesmoke;
 }
 .containerpres
 {
@@ -23,15 +24,61 @@ background-color: bisque;
     margin-right: 12px;
     padding: 0px;
 }
-.containervids
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.containervids blockquote 
-{
-    max-width: 50%; 
-    flex: 1 1 auto;
+
+.contenedor {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    max-width: 100%;
+    width: 70%;
+    background-color: bisque;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 25px;
+}
+
+.texto {
+    flex: 2;
+}
+
+.caja-texto {
+    padding: 15px;
+    background-color: bisque;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.caja-texto h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.caja-texto h3 {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.caja-texto p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+}
+
+.imagen {
+    flex: 1;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
