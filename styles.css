@@ -35,11 +35,10 @@ body {
 }
 
 .presentacion2 {
-    padding-top: 15px;
-    padding-left: 23%;
+    padding-top: 15px;    
     background-color: #839887;
     margin-top: 20px;
-    text-align: center, justify;
+    text-align: center;
     font-weight: bold;
     color: whitesmoke;
     font-family: "Poiret One", sans-serif;
@@ -129,12 +128,14 @@ body {
 }
 
 #bannerimage {
-    width: 100%;
+    max-width: 100%;
+    max-height: 405px;
+    margin-inline: auto;
     overflow: hidden;
     align-items: center;
-    height: 405px;
+    
     background-color: #DDCBBF;
-    background-position: center;
+    
 }
 
 .bannerimage {
@@ -143,33 +144,43 @@ body {
     display: block;
 }
 
-.grid-container {
+.card-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #C990A6;
-    padding: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;    
+    padding: 30px;    
     gap: 3px;
-    justify-content: space-around;
+    justify-content: center;
     margin-left: 1%;
     margin-right: 1%;
     border-radius: 5px;
+    background-color: #C990A6;
+
+    @media (width >= 40em) {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
     
+    @media (width >= 60em) {
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
 }
 
-.grid-item {
+.card-item {
     background-color: #DDCBBF;
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
+    padding: 4%;
     margin-top: 2px;
     margin-bottom: 2px;
+    
+    align-items: center;
     font-size: 150%;
     text-align: center;
     border-radius: 8px;
     font-family: "Poiret One", sans-serif;
-    max-width: 100%;
-    
+    width: 18rem;
+
 }
 
 footer {
