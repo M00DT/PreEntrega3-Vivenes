@@ -1,29 +1,59 @@
+.poiret-one-regular {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 .carousel-control-next,
 .carousel-control-prev,
-.carousel-indicators 
-{
+.carousel-indicators {
     filter: invert(100%);
 }
-body
-{
-background-color: beige;
+
+.botonesnav {
+    background-color: #839887;
+    border-radius: 6px;
+    padding: 2px;
+    margin-left: 5px;
 }
-.presentacion
-{
+
+body {
+    background-color: #DDCBBF;
+}
+
+.presentacion {
+    padding-top: 15px;
     padding-left: 50px;
-    background-color: #198754;
+    background-color: #839887;
     margin-top: 20px;
     text-align: center, justify;
     font-weight: bold;
     color: whitesmoke;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-size: larger;
 }
-.containerpres
-{
+
+.presentacion2 {
+    padding-top: 15px;
+    padding-left: 23%;
+    background-color: #839887;
+    margin-top: 20px;
+    text-align: center, justify;
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-size: larger;
+}
+
+.containerpres {
     max-width: 100%;
     margin-right: 12px;
     padding: 0px;
+
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -33,16 +63,18 @@ background-color: beige;
 .contenedor {
     display: flex;
     align-items: flex-start;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     padding: 15px;
     margin-top: 20px;
     margin-left: 15%;
     margin-bottom: 20px;
     max-width: 100%;
     width: 70%;
-    background-color: bisque;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #C990A6;
+    box-shadow: 0px 4px 8px rgba(15, 15, 15, 0.1);
     gap: 25px;
+    border-radius: 6px;
+    min-width: 150px;
 }
 
 .texto {
@@ -51,26 +83,32 @@ background-color: beige;
 
 .caja-texto {
     padding: 15px;
-    background-color: bisque;
+    background-color: #C990A6;
     border-radius: 8px;
     margin-bottom: 15px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .caja-texto h2 {
     font-size: 1.5em;
-    color: #333;
+    color: #DDCBBF;
+    font-family: "Poiret One", sans-serif;
+    font-weight: bold;
 }
 
 .caja-texto h3 {
     font-size: 1.2em;
-    color: #555;
+    color: #DDCBBF;
+    font-family: "Poiret One", sans-serif;
+    font-weight: bold;
 }
 
 .caja-texto p {
     font-size: 1em;
     line-height: 1.6;
-    color: #666;
+    color: #DDCBBF;
+    font-family: "Poiret One", sans-serif;
+    font-weight: bold;
 }
 
 .imagen {
@@ -81,4 +119,64 @@ background-color: beige;
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+}
+
+.meme {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#bannerimage {
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    height: 405px;
+    background-color: #DDCBBF;
+    background-position: center;
+}
+
+.bannerimage {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #C990A6;
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 3px;
+    justify-content: space-around;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 5px;
+    
+}
+
+.grid-item {
+    background-color: #DDCBBF;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 150%;
+    text-align: center;
+    border-radius: 8px;
+    font-family: "Poiret One", sans-serif;
+    max-width: 100%;
+    
+}
+
+footer {
+    background-color: #CBBD9A;
+    height: 100px;
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    color: whitesmoke;
 }
