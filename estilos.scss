@@ -4,14 +4,9 @@
 .carousel-control-prev,
 .carousel-indicators {
     filter: invert(100%);
+    
 }
-
-.botonesnav {
-    background-color: #839887;
-    border-radius: 6px;
-    padding: 2px;
-    margin-left: 5px;
-}
+@import"_botonesnav.scss";
 
 body {
     background-color: #DDCBBF;
