@@ -1,116 +1,12 @@
 @import "_font.scss";
-
-.carousel-control-next,
-.carousel-control-prev,
-.carousel-indicators {
-    filter: invert(100%);
-
-}
-
+@import '_carousel.scss';
 @import"_botonesnav.scss";
-
-body {
-    background-color: #DDCBBF;
-}
-
-.presentacion {
-    padding-top: 15px;
-    padding-left: 50px;
-    background-color: #839887;
-    margin-top: 20px;
-    text-align: center, justify;
-    font-weight: bold;
-    color: whitesmoke;
-    font-family: "Poiret One", sans-serif;
-    font-weight: 400;
-    font-size: larger;
-}
-
-.presentacion2 {
-    padding-top: 15px;
-    background-color: #839887;
-    margin-top: 20px;
-    text-align: center;
-    font-weight: bold;
-    color: whitesmoke;
-    font-family: "Poiret One", sans-serif;
-    font-weight: 400;
-    font-size: larger;
-}
-
-.containerpres {
-    max-width: 100%;
-    margin-right: 12px;
-    padding: 0px;
-
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.contenedor {
-    display: flex;
-    align-items: flex-start;
-    border: 2px solid #ddd;
-    padding: 15px;
-    margin-top: 20px;
-    margin-left: 15%;
-    margin-bottom: 20px;
-    max-width: 100%;
-    width: 70%;
-    background-color: #C990A6;
-    box-shadow: 0px 4px 8px rgba(15, 15, 15, 0.1);
-    gap: 25px;
-    border-radius: 6px;
-    min-width: 150px;
-}
-
-.texto {
-    flex: 2;
-}
-
-.caja-texto {
-    padding: 15px;
-    background-color: #C990A6;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.caja-texto h2 {
-    font-size: 1.5em;
-    color: #DDCBBF;
-    font-family: "Poiret One", sans-serif;
-    font-weight: bold;
-}
-
-.caja-texto h3 {
-    font-size: 1.2em;
-    color: #DDCBBF;
-    font-family: "Poiret One", sans-serif;
-    font-weight: bold;
-}
-
-.caja-texto p {
-    font-size: 1em;
-    line-height: 1.6;
-    color: #DDCBBF;
-    font-family: "Poiret One", sans-serif;
-    font-weight: bold;
-}
-
-.imagen {
-    flex: 1;
-}
-
-.imagen img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
+@import '_body.scss';
+@import '_bannerpress.scss';
+@import '_bannerpress2.scss';
+@import '_reset.scss';
+@import '_boxmain.scss';
+@import '_imgprincipal.scss';
 
 .meme {
     display: block;
@@ -119,23 +15,7 @@ body {
     width: 50%;
 }
 
-#bannerimage {
-    max-width: 100%;
-    max-height: 405px;
-    margin-inline: auto;
-    overflow: hidden;
-    align-items: center;
-
-    background-color: #DDCBBF;
-
-}
-
-.bannerimage {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
+@import '_bannersecundario.scss';
 @import "_cardcontainer.scss";
 @import "_carditem.scss";
 @import "_footer.scss";

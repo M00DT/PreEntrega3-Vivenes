@@ -203,6 +203,12 @@ body {
   background-color: #DDCBBF;
 }
 
+.containerpres {
+  max-width: 100%;
+  margin-right: 12px;
+  padding: 0px;
+}
+
 .presentacion {
   padding-top: 15px;
   padding-left: 50px;
@@ -226,12 +232,6 @@ body {
   font-family: "Poiret One", sans-serif;
   font-weight: 400;
   font-size: larger;
-}
-
-.containerpres {
-  max-width: 100%;
-  margin-right: 12px;
-  padding: 0px;
 }
 
 * {
