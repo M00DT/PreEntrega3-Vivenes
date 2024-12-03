@@ -1,11 +1,11 @@
-@import "_font.scss";
-@import '_carousel.scss';
-@import"_botonesnav.scss";
-@import '_body.scss';
-@import '_bannerpress.scss';
-@import '_bannerpress2.scss';
-@import '_reset.scss';
-@import '_boxmain.scss';
+@import 'mains/_font.scss';
+@import 'mains/carousel';
+@import 'mains/botonesnav';
+@import 'mains/_body.scss';
+@import 'Banners/_bannerpress.scss';
+@import 'Banners/_bannerpress2.scss';
+@import 'mains/_reset.scss';
+@import 'mains/_boxmain.scss';
 @import '_imgprincipal.scss';
 
 .meme {
@@ -15,7 +15,8 @@
     width: 50%;
 }
 
-@import '_bannersecundario.scss';
-@import "_cardcontainer.scss";
-@import "_carditem.scss";
-@import "_footer.scss";
+@import 'Banners/_bannersecundario.scss';
+@import "cards/_cardcontainer.scss";
+@import "cards/_carditem.scss";
+@import "mains/_footer.scss";
+@import "landingpatrones/_patroneslan.scss";
